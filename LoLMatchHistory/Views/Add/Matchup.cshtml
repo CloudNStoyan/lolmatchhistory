@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Matchup";
+    Layout = "~/Views/_layout.cshtml";
+}
+
+<form method="post" action="/api/add">
+    <select name="win">
+        <option value="True">Win</option>
+        <option value="False">Lose</option>
+    </select>
+    <input type="submit" name="add" value="add"/>
+</form>
+
